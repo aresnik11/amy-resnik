@@ -1,0 +1,15 @@
+#skills {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1506269996138-4c6d92fbd8a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2750&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 625px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    text-align: left;
+}
