@@ -16,6 +16,12 @@ const Booked = (props) => {
         <div id="booked">
             <div className="container">
                 <h1>Booked</h1>
+                <ul className="view-buttons">
+                    <a href="https://booked.netlify.com/" target="_blank" rel="noopener noreferrer"><li>Visit Site</li></a>
+                    <a href="https://github.com/aresnik11/booked-frontend" target="_blank" rel="noopener noreferrer"><li>Frontend Code</li></a>
+                    <a href="https://github.com/aresnik11/booked-backend" target="_blank" rel="noopener noreferrer"><li>Backend Code</li></a>
+                    <a href="https://youtu.be/ufUUwquSsTg" target="_blank" rel="noopener noreferrer"><li>View Demo</li></a>
+                </ul>
                 <h3>A book app that allows users to search for books, add books to book lists, share book lists, and chat in online book clubs</h3>
                 <ul className="tech">
                     <li>React</li>

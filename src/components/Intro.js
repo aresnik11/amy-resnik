@@ -2,7 +2,7 @@ import React from 'react'
 import resume from '../assets/amy_resnik_resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faLinkedinIn, faGithub, faGithubSquare, faMedium } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faFileAlt } from '@fortawesome/free-regular-svg-icons'
 
 const Intro = (props) => {
