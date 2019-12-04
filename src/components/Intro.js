@@ -9,7 +9,7 @@ const Intro = (props) => {
     return (
         <div id="intro">
             <h1 id="name">Amy Resnik</h1>
-            <h2>Software Engineer</h2>
+            <h2>Software Engineer &bull; Lifelong Learner &bull; Avid Reader &bull; Plant Enthusiast</h2>
             <ul className="icons">
                 <li>
                     <a href="https://www.linkedin.com/in/amy-resnik" target="_blank" rel="noopener noreferrer">

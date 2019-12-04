@@ -10,26 +10,19 @@
 .about-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5%;
     height: 100%;
-}
-  
-.about-grid div {
-    margin: 10% 5%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .bio {
     border: 2px solid #555;
     border-radius: 10px;
-    padding: 3%;
+    padding: 5%;
     background: rgba(255, 255, 255, 0.75);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    text-align: left;
+    margin: auto;
 }
 
 .bio:hover {
@@ -44,7 +37,11 @@
     color: #555;
 }
 
-#photo {
+.bio-photo {
+    margin: auto
+}
+
+.bio-photo img {
     max-width: 100%;
     height: auto;
 }

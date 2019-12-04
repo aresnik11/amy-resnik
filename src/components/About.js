@@ -1,6 +1,5 @@
 import React from 'react'
-import photo from '../assets/amy_resnik.jpg'
-import photo_shape from '../assets/amy_resnik_shape.png'
+import photo from '../assets/amy_resnik.png'
 
 const About = (props) => {
     return (
@@ -18,11 +17,11 @@ const About = (props) => {
                         <br/><br/>
                         I graduated from Hamilton College in 2015 with a major in Mathematics and a minor in Computer Science.
                         <br/><br/>
-                        When I'm not coding or learning, I enjoy reading, traveling, doing logic puzzles, and adding to my jungle of plants.
+                        When I'm not coding or learning, I enjoy reading mysteries/thrillers, traveling, doing logic puzzles, and adding to my jungle of plants.
                     </p>
                 </div>
-                <div>
-                    <img alt="Amy Resnik" src={photo_shape} id="photo" />
+                <div className="bio-photo">
+                    <img alt="Amy Resnik" src={photo} />
                 </div>
             </div>
         </div>

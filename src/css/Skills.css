@@ -12,4 +12,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     text-align: left;
+    margin: 1%;
+}
+
+.skills-grid div {
+    padding: 3%;
+}
+
+.skills-grid h2 {
+    padding-left: 2%;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 500;
 }
