@@ -5,7 +5,7 @@ import board from '../assets/set_game/set_game_board.png'
 import rules from '../assets/set_game/set_game_rules.png'
 import scores from '../assets/set_game/set_game_scores.png'
 
-const SetGame = (props) => {
+const SetGame = () => {
     return (
         <div id="set-game">
             <div className="container">

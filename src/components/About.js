@@ -1,7 +1,7 @@
 import React from 'react'
 import photo from '../assets/amy_resnik.png'
 
-const About = (props) => {
+const About = () => {
     return (
         <div id="about">
             <div className="about-grid">

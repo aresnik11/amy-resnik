@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Work = (props) => {
+const Work = () => {
     return (
         <div id="work">
             <div className="container">

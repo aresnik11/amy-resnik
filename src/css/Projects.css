@@ -72,3 +72,7 @@
     color: white;
     transition: all .3s ease;
 }
+
+.view-buttons li:active {
+    transform: translateY(5px);
+}

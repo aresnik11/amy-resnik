@@ -26,11 +26,11 @@
     display: inline;
 }
 
-.icons a {
-    text-decoration: none;
+.icons svg {
     color: #000;
 }
 
-.icons a:hover {
-    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+.icons svg:hover {
+    transition: all .3s ease;
+    transform: scale(1.1) translateY(-5px);
 }

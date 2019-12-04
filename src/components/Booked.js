@@ -11,7 +11,7 @@ import search from '../assets/booked/booked_search.png'
 import book_clubs from '../assets/booked/booked_book_clubs.png'
 import Carousel from 'nuka-carousel';
 
-const Booked = (props) => {
+const Booked = () => {
     return (
         <div id="booked">
             <div className="container">

@@ -6,7 +6,7 @@ import plants from '../assets/plant_nanny/plant_nanny_plants.png'
 import plant from '../assets/plant_nanny/plant_nanny_plant.png'
 import notes from '../assets/plant_nanny/plant_nanny_notes.png'
 
-const PlantNanny = (props) => {
+const PlantNanny = () => {
     return (
         <div id="plant-nanny">
             <div className="container">

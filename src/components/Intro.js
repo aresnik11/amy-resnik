@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faFileAlt } from '@fortawesome/free-regular-svg-icons'
 
-const Intro = (props) => {
+const Intro = () => {
     return (
         <div id="intro">
             <h1 id="name">Amy Resnik</h1>

@@ -25,3 +25,30 @@
     color: #555;
     font-weight: 500;
 }
+
+.skills-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 3%;
+}
+
+.skills-items li {
+    display: inline-block;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    width: 100px;
+    height: 100px;
+    line-height: 6;
+}
+
+.skills-items li:hover {
+    background-color: #333;
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    transition: all 0.8s ease-in-out;
+    transform-origin: center;
+}

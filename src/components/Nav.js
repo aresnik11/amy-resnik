@@ -1,7 +1,7 @@
 import React from 'react'
 import resume from '../assets/amy_resnik_resume.pdf'
 
-const Nav = (props) => {
+const Nav = () => {
     const scrollToTop = () => {
         window.scrollTo({
           behavior: "smooth",
