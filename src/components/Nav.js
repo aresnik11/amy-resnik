@@ -36,18 +36,6 @@ const Nav = () => {
             <li>
                 <a href="#about">About</a>
             </li>
-
-
-            {/* <div class="animation start-home"></div> */}
-            {/* <button onClick={() => props.moveDown(props.about)}>About</button>
-            <button onClick={() => props.moveDown(props.techProjects)}>Technical Projects</button>
-            <button onClick={() => props.moveDown(props.booked)}>Booked</button>
-            <button onClick={() => props.moveDown(props.setGame)}>Set Game</button>
-            <button onClick={() => props.moveDown(props.plantNanny)}>Plant Nanny</button>
-            <button onClick={() => props.moveDown(props.skills)}>Technical Skills</button>
-            <button onClick={() => props.moveDown(props.work)}>Employment History</button>
-            <button onClick={() => props.moveDown(props.education)}>Education</button>
-            <button onClick={() => props.moveDown(props.interests)}>Interests</button> */}
         </ul>
     )
 }
