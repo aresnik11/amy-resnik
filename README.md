@@ -1,6 +1,13 @@
 # Personal Website V2
 
-This is the second version of my personal website. Built with React, JavaScript, Semantic UI, and custom CSS.
+This is the second version of my personal website.
+
+Built with
+* React
+* JavaScript
+* Custom CSS
+* Nuka Carousel
+* Font Awesome
 
 Visit [https://amyresnik.com](https://amyresnik.com) to view the site.
 
