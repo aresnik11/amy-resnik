@@ -17,7 +17,7 @@ const About = () => {
                         <br/><br/>
                         I graduated from Hamilton College in 2015 with a major in Mathematics and a minor in Computer Science.
                         <br/><br/>
-                        When I'm not coding or learning, I enjoy reading mysteries/thrillers, traveling, doing logic puzzles, and adding to my jungle of plants.
+                        When I'm not coding or learning, I enjoy reading mysteries/thrillers, traveling, logic puzzles, and adding to my jungle of plants.
                     </p>
                 </div>
                 <div className="bio-photo">

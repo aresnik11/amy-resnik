@@ -11,7 +11,7 @@ const Work = () => {
                         <h3>Senior Product Integrity Manager @ BounceX</h3>
                         <p>August 2018 &ndash; August 2019</p>
                         <ul>
-                            <li>Led QA within an Agile team for BounceX's customer facing application developed and executed comprehensive test plans including API tests, functional tests, and end-to-end tests</li>
+                            <li>Led QA within an Agile team for BounceX's customer facing application, developed and executed comprehensive test plans including API tests, functional tests, and end-to-end tests</li>
                             <li>Collaborated with Product Owners and Software Engineers to create user story acceptance criteria, leveraged product expertise to ensure new features were built to QA and company standards</li>
                             <li>Identified and troubleshot bugs, provided feedback to improve UI/UX, and communicated impact of defects to stakeholders</li>
                         </ul>
