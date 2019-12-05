@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* margin-top: 46px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -33,4 +32,10 @@
 .icons svg:hover {
     transition: all .3s ease;
     transform: scale(1.1) translateY(-5px);
+}
+
+@media screen and (max-width: 600px) {
+    /* #intro h2 span {
+        display: block;
+    } */
 }

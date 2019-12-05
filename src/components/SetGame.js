@@ -25,7 +25,6 @@ const SetGame = () => {
                     <li>Postgres</li>
                 </ul>
                 <Carousel
-                    className="carousel"
                     wrapAround={true}
                     enableKeyboardControls={true}
                     dragging={true}

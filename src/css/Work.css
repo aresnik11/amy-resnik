@@ -41,3 +41,21 @@
     color: #555;
     font-weight: 500;
 }
+
+@media screen and (max-width: 600px) {
+    .work-grid {
+        display: block;
+    }
+
+    .work-grid div {
+        margin-bottom: 3%;
+    }
+
+    #work {
+        height: 100%;
+    }
+
+    #work br {
+        display: none;
+    }
+}

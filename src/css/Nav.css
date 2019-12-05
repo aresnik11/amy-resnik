@@ -2,7 +2,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* background-color: #333; */
     background: rgba(255, 255, 255, 0.75);
     top: 0;
     position: fixed;
@@ -19,16 +18,28 @@
     cursor: pointer;
 }
 
-.nav li {
-    float: right;
+.menu-links {
+    text-align: right;
 }
 
-.nav li a {
-    display: block;
+.menu-links li {
+    display: inline-block;
+}
+
+.menu-links li a {
+    display: inline-block;
     color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#menu {
+    padding: 7px 8px;
+    color: #333;
+    display: block;
+    cursor: pointer;
+    float: right;
 }
 
 /* change color with transition effect on hover */
@@ -49,6 +60,46 @@
 }
 
 /* show dropdown content on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content a {
     display: block;
+}
+
+@media screen and (max-width: 600px) {
+    /* hides menu links on mobile */
+    .menu-links {
+        display: none;
+        margin-top: 46px;
+    }
+
+    /* stacks menu links */
+    .menu-links li {
+        float: none;
+        display: block;
+    }
+
+    .menu-links li a {
+        width: 100%;
+        text-align: left;
+    }
+
+    .dropdown:hover {
+        margin-bottom: 138px;
+    }
+
+    .dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content a {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    /* hides mobile menu icon on desktop */
+    #menu {
+        display: none;
+    }
+
+    /* resets desktop menu to appear if resizing window */
+    .menu-links {
+        display: block!important;
+    }
 }

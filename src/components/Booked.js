@@ -37,7 +37,6 @@ const Booked = () => {
                     <li>ActiveModel Serializer</li>
                 </ul>
                 <Carousel
-                    className="carousel"
                     wrapAround={true}
                     enableKeyboardControls={true}
                     dragging={true}

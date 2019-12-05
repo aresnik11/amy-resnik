@@ -7,25 +7,6 @@
     min-height: 625px;
 }
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
-    text-align: left;
-    margin: 1%;
-}
-
-.skills-grid div {
-    padding: 3%;
-}
-
-.skills-grid h2 {
-    padding-left: 2%;
-    text-transform: uppercase;
-    color: #555;
-    font-weight: 500;
-}
-
 .skills-items {
     list-style-type: none;
     padding: 0;
@@ -51,4 +32,18 @@
     transform: rotateY(360deg);
     transition: all 0.8s ease-in-out;
     transform-origin: center;
+}
+
+@media screen and (max-width: 600px) {
+    .skills-items li {
+        width: 80px;
+        height: 80px;
+        line-height: 6.5;
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    #skills {
+        height: 100%;
+    }
 }

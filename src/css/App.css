@@ -9,10 +9,15 @@ html {
   text-align: center;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  /* color: #333 */
 }
 
 .container {
   padding: 1%;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}

@@ -45,3 +45,23 @@
     max-width: 100%;
     height: auto;
 }
+
+@media screen and (max-width: 600px) {
+    .about-grid {
+        display: block;
+    }
+
+    .bio-photo {
+        width: 75%;
+    }
+
+    #about {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #about br {
+        display: none;
+    }
+}

@@ -25,7 +25,7 @@
     min-height: 813px;
 }
 
-.carousel {
+.slider {
     margin: auto;
 }
 
@@ -55,7 +55,7 @@
     padding: 0;
 }
 
-.view-buttons li {
+.view-buttons a {
     display: inline-block;
     padding: 8px 12px;
     border: 2px solid #555;
@@ -67,12 +67,33 @@
     color: #555;
 }
 
-.view-buttons li:hover {
+.view-buttons a:hover {
     background: #555;
     color: white;
     transition: all .3s ease;
 }
 
-.view-buttons li:active {
+.view-buttons a:active {
     transform: translateY(5px);
+}
+
+@media screen and (max-width: 600px) {
+    .slider {
+        width: 100%!important;
+    }
+
+    #booked, #set-game, #plant-nanny {
+        height: 100%;
+    }
+
+    .view-buttons a {
+        display: block;
+        width: 38%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .view-buttons a {
+        background: rgba(255, 255, 255, 0.75);
+    }
 }
