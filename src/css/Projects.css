@@ -1,3 +1,4 @@
+/* background images */
 #booked {
     height: 115vh;
     background: url('https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
@@ -25,6 +26,7 @@
     min-height: 813px;
 }
 
+/* centers slider/carousel */
 .slider {
     margin: auto;
 }
@@ -34,6 +36,7 @@
     padding: 0;
 }
 
+/* styles tech icon/labels */
 .tech li {
     display: inline-block;
     background-color: #555;
@@ -55,6 +58,7 @@
     padding: 0;
 }
 
+/* styles view buttons */
 .view-buttons a {
     display: inline-block;
     padding: 8px 12px;
@@ -73,11 +77,13 @@
     transition: all .3s ease;
 }
 
+/* mimics pushing a button via animation */
 .view-buttons a:active {
     transform: translateY(5px);
 }
 
 @media screen and (max-width: 600px) {
+    /* makes slider/carousel full width */
     .slider {
         width: 100%!important;
     }
@@ -86,13 +92,15 @@
         height: 100%;
     }
 
+    /* stacks view buttons */
     .view-buttons a {
         display: block;
-        width: 38%;
+        width: 40%;
         margin: auto;
         margin-bottom: 10px;
     }
 
+    /* add white background to view buttons since some overlap with background */
     .view-buttons a {
         background: rgba(255, 255, 255, 0.75);
     }

@@ -1,3 +1,4 @@
+/* background image, vertically aligns content within it */
 #intro {
     height: 100vh;
     background: url('https://images.unsplash.com/photo-1551043047-1d2adf00f3fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
@@ -10,6 +11,7 @@
     min-height: 625px;
 }
 
+/* enlarges and styles name */
 #name {
     font-size: 80px;
     text-transform: uppercase;
@@ -21,21 +23,18 @@
     padding: 0;
 }
 
+/* shows icons inline in a row */
 .icons li {
     display: inline;
 }
 
+/* makes icons black */
 .icons svg {
     color: #000;
 }
 
+/* slightly enlarges and moves up icons on hover */
 .icons svg:hover {
     transition: all .3s ease;
     transform: scale(1.1) translateY(-5px);
-}
-
-@media screen and (max-width: 600px) {
-    /* #intro h2 span {
-        display: block;
-    } */
 }

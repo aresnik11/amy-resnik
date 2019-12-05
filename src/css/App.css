@@ -5,17 +5,20 @@
 @import url("./Skills.css");
 @import url("./Nav.css");
 
+/* centers text and allows smooth scrolling */
 html {
   text-align: center;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
+/* general padding for use in multiple components */
 .container {
   padding: 1%;
 }
 
 @media screen and (max-width: 600px) {
+  /* adds more padding to left and right on mobile */
   .container {
     padding-left: 3%;
     padding-right: 3%;

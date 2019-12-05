@@ -9,7 +9,7 @@ const Intro = () => {
     return (
         <div id="intro">
             <h1 id="name">Amy Resnik</h1>
-            <h2><span>Software Engineer</span> <span>&bull;</span> <span>Lifelong Learner</span> <span>&bull;</span> <span>Avid Reader</span> <span>&bull;</span> <span>Plant Enthusiast</span></h2>
+            <h2>Software Engineer &bull; Lifelong Learner &bull; Avid Reader &bull; Plant Enthusiast</h2>
             <ul className="icons">
                 <li>
                     <a href="https://www.linkedin.com/in/amy-resnik" target="_blank" rel="noopener noreferrer">

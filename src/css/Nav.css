@@ -1,3 +1,4 @@
+/* fixed nv bar */
 .nav {
     list-style-type: none;
     margin: 0;
@@ -9,6 +10,7 @@
     z-index: 10;
 }
 
+/* left aligned home link */
 #left {
     float: left;
     display: block;
@@ -18,6 +20,7 @@
     cursor: pointer;
 }
 
+/* right aligns rest of nav links */
 .menu-links {
     text-align: right;
 }
@@ -26,6 +29,7 @@
     display: inline-block;
 }
 
+/* sets nav links to be inline */
 .menu-links li a {
     display: inline-block;
     color: #333;
@@ -34,6 +38,7 @@
     text-decoration: none;
 }
 
+/* menu icon for mobile */
 #menu {
     padding: 7px 8px;
     color: #333;
@@ -77,11 +82,13 @@
         display: block;
     }
 
+    /* makes mobile menu links full width and left aligns text */
     .menu-links li a {
         width: 100%;
         text-align: left;
     }
 
+    /* adds space below Projects for dropdown options on hover */
     .dropdown:hover {
         margin-bottom: 138px;
     }

@@ -1,3 +1,4 @@
+/* background image */
 #about {
     height: 100vh;
     background: url('https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80');
@@ -7,6 +8,7 @@
     min-height: 545px;
 }
 
+/* grid and margin layout */
 .about-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -16,6 +18,7 @@
     margin-right: 5%;
 }
 
+/* bio text container formatting */
 .bio {
     border: 2px solid #555;
     border-radius: 10px;
@@ -25,6 +28,7 @@
     margin: auto;
 }
 
+/* adds shadow on hover */
 .bio:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -37,6 +41,7 @@
     color: #555;
 }
 
+/* centers photo */
 .bio-photo {
     margin: auto
 }
@@ -47,13 +52,14 @@
 }
 
 @media screen and (max-width: 600px) {
+    /* stacks content on mobile instead of grid */
     .about-grid {
         display: block;
     }
 
-    .bio-photo {
+    /* .bio-photo {
         width: 75%;
-    }
+    } */
 
     #about {
         height: 100%;
@@ -61,6 +67,7 @@
 }
 
 @media screen and (min-width: 601px) {
+    /* hides break tags on desktop - used as spacers on mobile */
     #about br {
         display: none;
     }

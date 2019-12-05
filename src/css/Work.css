@@ -1,3 +1,4 @@
+/* background image */
 #work {
     height: 100vh;
     background: url('https://images.unsplash.com/photo-1568738351265-c7065f5d4293?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80');
@@ -7,6 +8,7 @@
     min-height: 625px;
 }
 
+/* makes 2 column grid */
 .work-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,6 +18,7 @@
     height: 100%;
 }
 
+/* formats divs in grid */
 .work-grid div {
     border: 2px solid #555;
     border-radius: 10px;
@@ -27,6 +30,7 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+/* formatting title and date */
 .work-grid h3, .work-grid p {
     padding-left: 2%;
 }
@@ -35,6 +39,7 @@
     margin: 0;
 }
 
+/* makes dates uppercase and grey */
 .work-grid p {
     margin: 0;
     text-transform: uppercase;
@@ -43,10 +48,12 @@
 }
 
 @media screen and (max-width: 600px) {
+    /* stacks divs on mobile instead of 2 columnn grid */
     .work-grid {
         display: block;
     }
 
+    /* adds margin between stacked divs */
     .work-grid div {
         margin-bottom: 3%;
     }

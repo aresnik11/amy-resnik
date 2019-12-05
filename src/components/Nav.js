@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Nav = () => {
+    // scrolls to top on click of home button
     const scrollToTop = () => {
         window.scrollTo({
           behavior: "smooth",
@@ -12,11 +13,13 @@ const Nav = () => {
         })
     }
 
+    // shows/hides mobile menu on click of menu icon (only visible on mobile)
     const showMenu = () => {
         const menuLinks = document.querySelector(".menu-links");
         if (menuLinks.style.display === "block") {
             menuLinks.style.display = "none";
-        } else {
+        }
+        else {
             menuLinks.style.display = "block";
         }
     }
