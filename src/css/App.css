@@ -14,13 +14,13 @@ html {
 
 /* general padding for use in multiple components */
 .container {
-  padding: 1%;
+  padding: 3%;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) { */
   /* adds more padding to left and right on mobile */
-  .container {
+  /* .container {
     padding-left: 3%;
     padding-right: 3%;
   }
-}
+} */

@@ -83,13 +83,8 @@
 }
 
 @media screen and (max-width: 600px) {
-    /* makes slider/carousel full width */
-    .slider {
-        width: 100%!important;
-    }
-
     #booked, #set-game, #plant-nanny {
-        height: 115vh;
+        height: 100vh;
     }
 
     /* stacks view buttons */
@@ -104,12 +99,35 @@
     .view-buttons a {
         background: rgba(255, 255, 255, 0.75);
     }
+
+    /* makes slider/carousel full width */
+    .slider {
+        width: 100%!important;
+    }
 }
 
 /* TABLET */
 @media only screen and (min-width: 601px) {
     #booked, #set-game, #plant-nanny {
         height: 100vh;
+    }
+
+    /* stacks view buttons */
+    .view-buttons a {
+        display: block;
+        width: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /* add white background to view buttons since some overlap with background */
+    .view-buttons a {
+        background: rgba(255, 255, 255, 0.75);
+    }
+
+    /* makes slider/carousel full width */
+    .slider {
+        width: 100%!important;
     }
 }
 
