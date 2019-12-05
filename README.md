@@ -9,6 +9,7 @@ This is the second version of my personal website. Deployed via Netlify, visit [
 * React
 * JavaScript
 * Custom CSS
+* Media Queries
 * HTML
 * Nuka Carousel
 * Font Awesome

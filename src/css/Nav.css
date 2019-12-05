@@ -64,11 +64,7 @@
     z-index: 1;
 }
 
-/* show dropdown content on hover */
-.dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content a {
-    display: block;
-}
-
+/* MOBILE */
 @media screen and (max-width: 600px) {
     /* hides menu links on mobile */
     .menu-links {
@@ -88,19 +84,20 @@
         text-align: left;
     }
 
-    /* adds space below Projects for dropdown options on hover */
-    .dropdown:hover {
+    /* adds space below Projects for dropdown options on click */
+    /* .dropdown:hhover {
         margin-bottom: 138px;
     }
 
-    .dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content a {
+    .dropdown:hhover .dropdown-content, .dropdown:hhover .dropdown-content a {
         display: block;
         width: 100%;
-    }
+    } */
 }
 
-@media screen and (min-width: 601px) {
-    /* hides mobile menu icon on desktop */
+/* TABLET/DESKTOP */
+@media only screen and (min-width: 601px) {
+    /* hides mobile menu icon on tablet */
     #menu {
         display: none;
     }
@@ -109,4 +106,22 @@
     .menu-links {
         display: block!important;
     }
+
+    /* show dropdown content on hover */
+    .dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content a {
+        display: block;
+    }
 }
+
+/* DESKTOP */
+/* @media screen and (min-width: 768px) { */
+    /* hides mobile menu icon on desktop */
+    /* #menu {
+        display: none;
+    } */
+
+    /* show dropdown content on hover */
+    /* .dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content a {
+        display: block;
+    }
+} */
