@@ -1,29 +1,29 @@
 /* background images */
 #booked {
-    /* height: 115vh; */
+    height: 100%;
+    min-height: 100vh;
     background: url('https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* min-height: 813px; */
 }
 
 #set-game {
-    /* height: 115vh; */
+    height: 100%;
+    min-height: 100vh;
     background: url('https://images.unsplash.com/uploads/14114640960629b5c3fa0/116dc05a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* min-height: 813px; */
 }
 
 #plant-nanny {
-    /* height: 115vh; */
+    height: 100%;
+    min-height: 100vh;
     background: url('https://images.unsplash.com/photo-1533119408463-b0f487583ff6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2900&q=80');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* min-height: 813px; */
 }
 
 /* centers slider/carousel */
@@ -83,10 +83,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    #booked, #set-game, #plant-nanny {
-        height: 100vh;
-    }
-
     /* stacks view buttons */
     .view-buttons a {
         display: block;
@@ -108,10 +104,6 @@
 
 /* TABLET */
 @media only screen and (min-width: 601px) and (max-width: 991px) {
-    #booked, #set-game, #plant-nanny {
-        height: 100vh;
-    }
-
     /* stacks view buttons */
     .view-buttons a {
         display: block;
@@ -128,13 +120,5 @@
     /* makes slider/carousel full width */
     .slider {
         width: 100%!important;
-    }
-}
-
-/* DESKTOP */
-@media screen and (min-width: 992px) {
-    #booked, #set-game, #plant-nanny {
-        height: 115vh;
-        min-height: 813px;
     }
 }

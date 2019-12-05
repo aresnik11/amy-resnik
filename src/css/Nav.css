@@ -70,6 +70,7 @@
     .menu-links {
         display: none;
         margin-top: 46px;
+        background: rgba(255, 255, 255, 1);
     }
 
     /* stacks menu links */
@@ -112,16 +113,3 @@
         display: block;
     }
 }
-
-/* DESKTOP */
-/* @media screen and (min-width: 768px) { */
-    /* hides mobile menu icon on desktop */
-    /* #menu {
-        display: none;
-    } */
-
-    /* show dropdown content on hover */
-    /* .dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content a {
-        display: block;
-    }
-} */

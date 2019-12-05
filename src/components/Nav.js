@@ -4,8 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Nav = () => {
+    const menuLinks = React.createRef()
+
     // scrolls to top on click of home button
     const scrollToTop = () => {
+        hideMenu()
         window.scrollTo({
           behavior: "smooth",
           top: 0,
@@ -14,23 +17,27 @@ const Nav = () => {
     }
 
     // shows/hides mobile menu on click of menu icon (only visible on mobile)
-    const showMenu = () => {
-        const menuLinks = document.querySelector(".menu-links");
-        if (menuLinks.style.display === "block") {
-            menuLinks.style.display = "none";
+    const toggleMenu = () => {
+        if (menuLinks.current.style.display === "block") {
+            menuLinks.current.style.display = "none";
         }
         else {
-            menuLinks.style.display = "block";
+            menuLinks.current.style.display = "block";
         }
+    }
+
+    // hide mobile menu on click of any menu option
+    const hideMenu = () => {
+        menuLinks.current.style.display = "none";
     }
 
     return (
         <ul className="nav">
             <li id="left" onClick={scrollToTop}>Home</li>
-            <li id="menu" onClick={showMenu}>
+            <li id="menu" onClick={toggleMenu}>
                 <FontAwesomeIcon icon={faBars} size="2x" fixedWidth />
             </li>
-            <div className="menu-links">
+            <div className="menu-links" ref={menuLinks} onClick={hideMenu}>
                 <li>
                     <a href="#about">About</a>
                 </li>

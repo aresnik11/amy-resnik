@@ -1,11 +1,11 @@
 /* background image */
 #work {
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     background: url('https://images.unsplash.com/photo-1568738351265-c7065f5d4293?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 625px;
 }
 
 /* makes 2 column grid */
@@ -14,7 +14,6 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
     text-align: left;
-    margin: 1%;
     height: 100%;
 }
 
@@ -56,10 +55,6 @@
     /* adds margin between stacked divs */
     .work-grid div {
         margin-bottom: 3%;
-    }
-
-    #work {
-        height: 100%;
     }
 
     #work br {
