@@ -11,7 +11,7 @@ const SetGame = () => {
             <div className="container">
                 <h1>Set Game</h1>
                 <ul className="view-buttons">
-                    <a href="https://best-set-game.netlify.com/" target="_blank" rel="noopener noreferrer"><li>Visit Site</li></a>
+                    <a href="https://best-set-game.netlify.app" target="_blank" rel="noopener noreferrer"><li>Visit Site</li></a>
                     <a href="https://github.com/aresnik11/set-game-frontend" target="_blank" rel="noopener noreferrer"><li>Frontend Code</li></a>
                     <a href="https://github.com/aresnik11/set-game-backend" target="_blank" rel="noopener noreferrer"><li>Backend Code</li></a>
                     <a href="https://youtu.be/W0tN86PVt68" target="_blank" rel="noopener noreferrer"><li>View Demo</li></a>

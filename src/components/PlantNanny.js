@@ -12,7 +12,7 @@ const PlantNanny = () => {
             <div className="container">
                 <h1>Plant Nanny</h1>
                 <ul className="view-buttons">
-                    <a href="https://plant-nanny.netlify.com/" target="_blank" rel="noopener noreferrer"><li>Visit Site</li></a>
+                    <a href="https://plant-nanny.netlify.app" target="_blank" rel="noopener noreferrer"><li>Visit Site</li></a>
                     <a href="https://github.com/aresnik11/plant-nanny-frontend" target="_blank" rel="noopener noreferrer"><li>Frontend Code</li></a>
                     <a href="https://github.com/aresnik11/plant-nanny-backend" target="_blank" rel="noopener noreferrer"><li>Backend Code</li></a>
                     <a href="https://youtu.be/mgBwnVsuJ-Q" target="_blank" rel="noopener noreferrer"><li>View Demo</li></a>

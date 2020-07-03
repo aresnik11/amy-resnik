@@ -17,7 +17,7 @@ const Booked = () => {
             <div className="container">
                 <h1>Booked</h1>
                 <ul className="view-buttons">
-                    <a href="https://booked.netlify.com/" target="_blank" rel="noopener noreferrer"><li>Visit Site</li></a>
+                    <a href="https://booked.netlify.app" target="_blank" rel="noopener noreferrer"><li>Visit Site</li></a>
                     <a href="https://github.com/aresnik11/booked-frontend" target="_blank" rel="noopener noreferrer"><li>Frontend Code</li></a>
                     <a href="https://github.com/aresnik11/booked-backend" target="_blank" rel="noopener noreferrer"><li>Backend Code</li></a>
                     <a href="https://youtu.be/ufUUwquSsTg" target="_blank" rel="noopener noreferrer"><li>View Demo</li></a>
